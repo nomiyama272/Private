@@ -13,8 +13,6 @@ export class HeroesComponent implements OnInit {
 
   heroes: Hero[] = [];
   
-// private messageService: MessageServiceの部分がチュートリアルだと消えていた
-// コピペミス？
   constructor(private heroService: HeroService) { }
 
   ngOnInit(): void {
